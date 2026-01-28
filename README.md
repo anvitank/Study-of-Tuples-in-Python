@@ -1,4 +1,4 @@
-**Experiment-3**
+**Experiment-4**
 
 **Name: Anvi Singh Tank**
 
@@ -47,60 +47,98 @@ Example:
 •	Allows duplicate values
 
 •	Can store heterogeneous data types
-________________________________________
-3. Why Tuples are Used
+
+**3. Why Tuples are Used**
+
 •	Faster than lists
+
 •	Data integrity (values cannot be modified)
+
 •	Used for fixed data such as coordinates, days of week, database records
-________________________________________
-4. Creating Tuples
+
+**4. Creating Tuples**
+
 Tuples can be created:
+
 •	With parentheses
+
 •	Without parentheses (tuple packing)
+
 •	Using the tuple() constructor
+
 Special cases:
+
 •	Single element tuple must have a trailing comma
 (10,)
-________________________________________
-5. Indexing in Tuples
+
+**5. Indexing in Tuples**
+
 Tuple elements are accessed using index numbers, starting from 0.
+
 Both:
-•	Positive indexing
-•	Negative indexing
+
+**•	Positive indexing**
+
+**•	Negative indexing**
+
 are supported.
-________________________________________
-6. Slicing in Tuples
+
+**6. Slicing in Tuples**
+
 Slicing is used to extract a portion of a tuple.
-General Syntax:
-tuple_name[start : end : step]
-Meaning of each part:
-•	start → index to begin slicing (included)
-•	end → index to stop slicing (excluded)
-•	step → gap between elements (optional)
 
-7. Immutability of Tuples
+**General Syntax:**
+
+*tuple_name[start : end : step]*
+
+**Meaning of each part:**
+
+•	**start** → index to begin slicing (included)
+
+•	**end** → index to stop slicing (excluded)
+
+•	**step** → gap between elements (optional)
+
+**7. Immutability of Tuples**
+
 Once a tuple is created:
-•	Elements cannot be added
-•	Elements cannot be removed
-•	Elements cannot be updated
-Any attempt to modify results in an error.
-________________________________________
-8. Built-in Functions for Tuples
-Function	Description
-len()	Number of elements
-max()	Maximum value
-min()	Minimum value
-sum()	Sum of elements
-count()	Count occurrences
-index()	Find index of element
-________________________________________
 
-9. Difference Between List and Tuple
-List	Tuple
+•	Elements cannot be added
+
+•	Elements cannot be removed
+
+•	Elements cannot be updated
+
+Any attempt to modify results in an error.
+
+**8. Built-in Functions for Tuples**
+
+**Function	Description**
+
+len()	Number of elements
+
+max()	Maximum value
+
+min()	Minimum value
+
+sum()	Sum of elements
+
+count()	Count occurrences
+
+index()	Find index of element
+
+**9. Difference Between List and Tuple**
+
+**List	Tuple**
+
 Mutable	Immutable
+
 Uses [ ]	Uses ( )
+
 Slower	Faster
+
 Dynamic	Fixed
 
-Conclusion
+**Conclusion**
+
 Thus, Python tuples were studied and operations such as creation, indexing, slicing, packing, unpacking, and built-in functions were successfully implemented.
